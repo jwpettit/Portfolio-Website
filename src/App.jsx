@@ -3,13 +3,21 @@
 
 export default function App() {
   return (
-    <div className="px-4 py-5 my-5 text-center">
-      <div className="col-lg-6 mx-auto">
+    <div>
+      <div>
         <h1>Hi, I'm Jeff!</h1>
         <h1>Welcome to my site.</h1>
-        <br/>
+      </div>
+      <br />
+      <div>
         <h2>I am a software engineer based in CA.</h2>
-        <h3>Please view my projects on my <a href="https://gitlab.com/jwpettit" target="blank">gitlab page</a>.</h3>
+        <h3>
+          Please view my projects on my{" "}
+          <a href="https://gitlab.com/jwpettit" target="blank">
+            Gitlab page
+          </a>
+          .
+        </h3>
       </div>
     </div>
   );
