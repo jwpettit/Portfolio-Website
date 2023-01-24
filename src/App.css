@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "DIN-Bold";
+    src: url("./assets/fonts/DINB____.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: "DIN-Regular";
+    src: url("./assets/fonts/DINR____.TTF") format("truetype");
+}
+
 .App {
     background-color: #ebe9e5;
 }

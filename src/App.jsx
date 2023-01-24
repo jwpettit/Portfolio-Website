@@ -1,5 +1,7 @@
 // import logo from './logo.svg';
 import "./App.css";
+import "./assets/fonts/DINR____.TTF";
+import "./assets/fonts/DINB____.TTF";
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Templanding from "./pages/Templanding";
