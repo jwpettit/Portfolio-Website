@@ -19,13 +19,13 @@ export default function Templanding() {
                 <br />
                 <div className="Temp-Body">
                     <h2>I am a software engineer based in CA.</h2>
-                    <h3>
+                    {/* <h3>
                         Please view my projects on my{" "}
                         <a href="https://gitlab.com/jwpettit" target="blank">
                             Gitlab page
                         </a>
                         .
-                    </h3>
+                    </h3> */}
                 </div>
                 <div className="Icons-Box">
                     <IconButton
@@ -37,11 +37,63 @@ export default function Templanding() {
                     <IconButton href="mailto:j@jeffpett.it">
                         <EmailIcon className="Icons" />
                     </IconButton>
-                    <IconButton
-                        onClick={() => showPhoneModal(true)}
-                    >
+                    <IconButton onClick={() => showPhoneModal(true)}>
                         <LocalPhoneIcon className="Icons" />
                     </IconButton>
+                </div>
+                <br />
+                <div>
+                    <h2>. . .</h2>
+                </div>
+                <br />
+                <div className="Temp-Body">
+                    <div>
+                        <h3>
+                            <b>Selected Project Work</b>
+                        </h3>
+                    </div>
+                    <br />
+                    <div>
+                        <h3>BrewHop</h3>
+                        <h5>An app for discovering new breweries</h5>
+                        <h5>
+                            <a
+                                href="https://brewhoppers.gitlab.io/brew-hop/"
+                                target="blank"
+                            >
+                                Deployed Site
+                            </a>
+                        </h5>
+                        <h5>
+                            <a
+                                href="https://gitlab.com/brewhoppers/brew-hop"
+                                target="blank"
+                            >
+                                Repository
+                            </a>
+                        </h5>
+                    </div>
+                    <br />
+                    <div>
+                        <h3>Treampardy</h3>
+                        <h5>A fun web-game utilizing questions from past episodes of Jeopardy</h5>
+                        <h5>
+                            <a
+                                href="https://treamforce.gitlab.io/treampardy-take-2/"
+                                target="blank"
+                            >
+                                Deployed Site
+                            </a>
+                        </h5>
+                        <h5>
+                            <a
+                                href="https://gitlab.com/treamforce/treampardy-take-2"
+                                target="blank"
+                            >
+                                Repository
+                            </a>
+                        </h5>
+                    </div>
                 </div>
             </div>
             <div>
