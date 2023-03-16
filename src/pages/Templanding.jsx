@@ -101,6 +101,19 @@ export default function Templanding() {
                             </a>
                         </h5>
                     </div>
+                    <br />
+                    <div>
+                        <h3>AutoBahn</h3>
+                        <h5>A car dealership manangement app</h5>
+                        <h5>
+                            <a
+                                href="https://gitlab.com/jwpettit/project-beta"
+                                target="blank"
+                            >
+                                Repository
+                            </a>
+                        </h5>
+                    </div>
                 </div>
             </div>
             <div>
