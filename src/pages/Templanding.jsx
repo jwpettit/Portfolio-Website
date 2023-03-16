@@ -20,13 +20,6 @@ export default function Templanding() {
                 <br />
                 <div className="Temp-Body">
                     <h2>I am a software engineer based in CA.</h2>
-                    {/* <h3>
-                        Please view my projects on my{" "}
-                        <a href="https://gitlab.com/jwpettit" target="blank">
-                            Gitlab page
-                        </a>
-                        .
-                    </h3> */}
                 </div>
                 <div className="Icons-Box">
                     <IconButton
