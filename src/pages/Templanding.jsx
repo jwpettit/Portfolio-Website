@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../App.css";
 import IconButton from "@mui/material/IconButton";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from "@mui/icons-material/Email";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import { Modal, Button } from "react-bootstrap";
@@ -33,6 +34,12 @@ export default function Templanding() {
                         target="blank"
                     >
                         <LinkedInIcon className="Icons" />
+                    </IconButton>
+                    <IconButton
+                        href="https://gitlab.com/jwpettit"
+                        target="blank"
+                    >
+                        <GitHubIcon className="Icons" />
                     </IconButton>
                     <IconButton href="mailto:j@jeffpett.it">
                         <EmailIcon className="Icons" />
