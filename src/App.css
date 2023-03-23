@@ -37,7 +37,21 @@
     margin-top: 20px;
 }
 
+.Navlinks-Box {
+    display: flex;
+    justify-content: end;
+}
+
 .Icons {
     margin: 10px;
+    color: #4c4e52;
+}
+
+.Navlinks {
+    margin-left: 10px;
+}
+
+.Navbar.Brand {
+    font-family: DIN-Bold;
     color: #4c4e52;
 }
