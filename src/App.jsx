@@ -7,8 +7,8 @@ import { Route, Routes } from "react-router-dom";
 import Layout from "./Layout"
 import Landing from "./pages/Landing"
 import About from "./pages/About"
-import Invalid from "./pages/Invalid"
 import Contact from "./pages/Contact"
+import Invalid from "./pages/Invalid"
 
 
 export default function App() {
