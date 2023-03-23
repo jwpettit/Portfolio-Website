@@ -7,16 +7,17 @@ import { Route, Routes } from "react-router-dom";
 import Landing from "./pages/Landing"
 import About from "./pages/About"
 import Invalid from "./pages/Invalid"
+import Contact from "./pages/Contact"
 
 
 export default function App() {
     return (
         <div className="App">
             <Routes>
-                <Route path="/" element={<Layout
-                />} >
+                <Route path="/" element={<Layout />} >
                     <Route index element={<Landing />} />
-                    <Route path="about/" element={<Results />} />
+                    <Route path="about/" element={<About />} />
+                    <Route path="contact/" element={<Contact />} />
                     <Route path="*" element={<Invalid />} />
                 </Route>
             </Routes>
