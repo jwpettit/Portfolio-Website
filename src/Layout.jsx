@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import Navigation from "./Layout/Navbar";
+import Navigation from "./components/Navbar";
 
 export default function Layout() {
     return (
