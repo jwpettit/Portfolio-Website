@@ -8,6 +8,11 @@
     src: url("./assets/fonts/DINR____.TTF") format("truetype");
 }
 
+@font-face {
+    font-family: "DIN-Medium";
+    src: url("./assets/fonts/DIN Medium.ttf") format("truetype");
+}
+
 .App {
     background-color: #ebe9e5;
 }
@@ -48,10 +53,12 @@
 }
 
 .Navlinks {
-    margin-left: 10px;
+    margin-left: 20px;
+    font-family: DIN-Regular;
+    color: #4c4e52;
 }
 
-.Navbar.Brand {
-    font-family: DIN-Bold;
+.Navbar-Brand {
+    font-family: DIN-Medium;
     color: #4c4e52;
 }

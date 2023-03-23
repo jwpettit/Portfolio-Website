@@ -8,7 +8,7 @@ export default function Navigation() {
         <Navbar>
             <Navbar.Collapse>
                 <Container>
-                    <Navbar.Brand as={NavLink} to="/">
+                    <Navbar.Brand className="Navbar-Brand" as={NavLink} to="/">
                         Jeff Pettit
                     </Navbar.Brand>
                 </Container>
