@@ -8,12 +8,16 @@ export default function Landing() {
             <Container>
                 <Row>
                     <Col>
-                        <h1>Hi, I'm Jeff.</h1>
+                        <h1 className="Homepage-Intro-Text">Hi,</h1>
+                        <h1 className="Homepage-Intro-Text">I'm Jeff.</h1>
                     </Col>
                     <Col>
-                        <h3>
-                            A full-stack software engineer based in California.
-                        </h3>
+                        <div className="Homepage-Divider-Line" />
+                    </Col>
+                    <Col>
+                        <h1 className="Homepage-About-Text">I'm</h1>
+                        <h1 className="Homepage-About-Text">a software engineer</h1>
+
                     </Col>
                 </Row>
             </Container>
