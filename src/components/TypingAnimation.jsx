@@ -13,6 +13,7 @@ export default function HomepageTyping() {
                         "currently learning Swift.",
                         "excited about mobile dev.",
                         "American and Luxembourgish.",
+                        "nearly fluent in French.",
                         "a Californian.",
                         "a dog lover.",
                         "a car enthusiast.",
