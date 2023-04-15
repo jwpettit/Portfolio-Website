@@ -12,8 +12,8 @@ export default function HomepageTyping() {
                         "pretty good at Python and JS.",
                         "American and Luxembourgish.",
                         "a Californian.",
-                        "a dog-lover.",
-                        "a car-enthusiast.",
+                        "a dog lover.",
+                        "a car enthusiast.",
                         "LGBTQ."
                     ]
                 }

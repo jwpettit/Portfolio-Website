@@ -1,5 +1,6 @@
 import Navbar from "react-bootstrap/Navbar";
 import { Container } from "react-bootstrap";
+import Clock from "./Clock";
 
 export default function Footer() {
     return (
@@ -7,7 +8,7 @@ export default function Footer() {
             <Navbar.Collapse>
                 <Container>
                     <Navbar.Brand className="Footer-Text">
-                        It is currently 17:05:49 in California, where Jeff is
+                        It is currently <Clock /> in California, where Jeff is
                         based.
                     </Navbar.Brand>
                 </Container>
