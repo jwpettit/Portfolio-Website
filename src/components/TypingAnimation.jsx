@@ -10,6 +10,8 @@ export default function HomepageTyping() {
                         "a designer.",
                         "a frontend extraordinaire.",
                         "pretty good at Python and JS.",
+                        "currently learning Swift.",
+                        "excited about mobile dev.",
                         "American and Luxembourgish.",
                         "a Californian.",
                         "a dog lover.",
