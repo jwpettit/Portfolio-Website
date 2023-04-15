@@ -1,3 +1,5 @@
+import { Home } from "@mui/icons-material";
+import HomepageTyping from "../components/TypingAnimation";
 
 export default function Landing() {
     return (
@@ -10,7 +12,7 @@ export default function Landing() {
             <div className="Vertical-Line-2" />
             <div>
                 <h1 className="Homepage-About-Text">I'm</h1>
-                <h1 className="Homepage-About-Text">a software engineer</h1>
+                <HomepageTyping/>
             </div>
         </div>
     );

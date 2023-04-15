@@ -99,6 +99,13 @@
     color: #FFFFFF
 }
 
+.Homepage-About-Text-Animated {
+    text-align: left;
+    font-family: DIN-Regular;
+    font-size: 40px;
+    color: #FFE443
+}
+
 .Homepage-Container {
     display: flex;
     justify-content: space-between;
