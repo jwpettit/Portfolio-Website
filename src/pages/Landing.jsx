@@ -1,4 +1,3 @@
-import { Home } from "@mui/icons-material";
 import HomepageTyping from "../components/TypingAnimation";
 
 export default function Landing() {
