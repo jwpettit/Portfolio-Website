@@ -5,7 +5,10 @@ import Container from "react-bootstrap/Container";
 
 export default function Navigation() {
     return (
-        <Navbar>
+        <Navbar
+            sticky="top"
+            className="Navbar-Visual"
+        >
             <Navbar.Collapse>
                 <Container>
                     <Navbar.Brand className="Navbar-Brand" as={NavLink} to="/">
