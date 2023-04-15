@@ -2,13 +2,14 @@ import { useState } from "react";
 
 export default function Clock() {
 
-    const locale = 'us-PT'
-    let time = new Date().toLocaleTimeString(locale);
-    
+    const locale = 'us-US'
+    const timeZone = { timeZone: "America/Los_Angeles" }
+    let time = new Date().toLocaleTimeString(locale, timeZone);
+
     const [currentTime, setCurrentTime] = useState(time);
 
     const updateTime = () => {
-        let time = new Date().toLocaleTimeString(locale);
+        let time = new Date().toLocaleTimeString(locale, timeZone);
         setCurrentTime(time)
     }
 
