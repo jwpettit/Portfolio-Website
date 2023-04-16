@@ -3,7 +3,7 @@ import Button from "@mui/material/Button";
 import { useNavigate } from "react-router";
 
 const YellowButton = styled(Button)({
-    fontFamily: "DIN-Regular",
+    fontFamily: "DIN-Bold",
     textTransform: "none",
     color: "#0F1120",
     backgroundColor: "#FFE443",
