@@ -16,11 +16,13 @@
 
 
 
+
 /* Global App Parameters */
 .App {
     background-color: #0F1120;
     height: 100%;
 }
+
 
 
 
@@ -62,6 +64,7 @@
 
 
 
+
 /* Text Classes */
 .H1-Header {
     font-family: DIN-Bold;
@@ -74,6 +77,7 @@
     font-size: 40px;
     color: #FFFFFF;
 }
+
 
 
 
@@ -143,10 +147,6 @@
     justify-content: end;
 }
 
-.Standard-Button {
-    background-color: #FFE443;
-    font-family: DIN-Regular;
-}
 
 
 
@@ -202,6 +202,7 @@
     flex: 1;
     text-align: justify;
 }
+
 
 
 
