@@ -1,4 +1,4 @@
-import GoHomeButton from "../components/Button";
+import GoHomeButton from "../components/GoHomeButton";
 
 export default function Invalid() {
     return (

@@ -1,5 +1,7 @@
+import { useState } from "react";
 import { TextField } from "@mui/material";
 import { styled } from "@mui/material/styles";
+import SubmitContactFormButton from "./SubmitContactFormButton";
 
 const YellowTextField = styled(TextField)({
     // Controls the label above the text box when active
@@ -42,14 +44,22 @@ const YellowTextField = styled(TextField)({
 });
 
 export default function ContactForm() {
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [phoneNo, setPhoneNo] = useState("");
+    const [message, setMessage] = useState("");
+
     return (
-        <>
+        <form>
             <div>
                 <YellowTextField
                     label="Name"
                     id="custom-css-outlined-input"
                     variant="standard"
+                    fullWidth
                     required
+                    value={name}
+                    onChange={e => setName(e.target.value)}
                 />
             </div>
             <div>
@@ -57,7 +67,10 @@ export default function ContactForm() {
                     label="Email Address"
                     id="custom-css-outlined-input"
                     variant="standard"
+                    fullWidth
                     required
+                    value={email}
+                    onChange={e => setEmail(e.target.value)}
                 />
             </div>
             <div>
@@ -66,6 +79,9 @@ export default function ContactForm() {
                     label="Phone Number"
                     id="custom-css-outlined-input"
                     variant="standard"
+                    fullWidth
+                    value={phoneNo}
+                    onChange={e => setPhoneNo(e.target.value)}
                 />
             </div>
             <div>
@@ -74,10 +90,16 @@ export default function ContactForm() {
                     label="Message"
                     required
                     multiline
+                    fullWidth
                     rows={5}
                     variant="standard"
+                    value={message}
+                    onChange={e => setMessage(e.target.value)}
                 />
             </div>
-        </>
+            <div>
+                <SubmitContactFormButton />
+            </div>
+        </form>
     );
 }
