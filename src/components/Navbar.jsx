@@ -4,10 +4,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 
 export default function Navigation() {
-
-    const activeColor = { color: 'red' }
-    const hoverColor = { color: 'blue' }
-
     return (
         <Navbar
             sticky="top"
