@@ -10,7 +10,7 @@ export default function Clock() {
 
     const updateTime = () => {
         let time = new Date().toLocaleTimeString(locale, timeZone);
-        setCurrentTime(time)
+        setCurrentTime(time);
     };
 
     setInterval(updateTime, 1000);
