@@ -15,21 +15,21 @@ export default function Footer() {
             </Navbar.Collapse>
             <Navbar.Collapse className="justify-content-end">
                 {/* <Container className="Footer-Flags-Box"> */}
-                    {/* <Navbar.Brand href="">
+                {/* <Navbar.Brand href="">
                         <img
                             alt="USA Flag"
                             src={`${process.env.PUBLIC_URL}/flags/Flag_USA.svg`}
                             height="60"
                         />
                     </Navbar.Brand> */}
-                    {/* <Navbar.Brand href="">
+                {/* <Navbar.Brand href="">
                         <img
                             alt="Luxembourg Flag"
                             src={`${process.env.PUBLIC_URL}/flags/Flag_Luxembourg.svg`}
                             height="60"
                         />
                     </Navbar.Brand> */}
-                    {/* <Navbar.Brand href="">
+                {/* <Navbar.Brand href="">
                         <img
                             alt="LGBTQ Flag"
                             src={`${process.env.PUBLIC_URL}/flags/Flag_LGBT.svg`}
@@ -40,4 +40,4 @@ export default function Footer() {
             </Navbar.Collapse>
         </Navbar>
     );
-};
+}
