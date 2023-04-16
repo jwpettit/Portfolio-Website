@@ -19,7 +19,7 @@ export default function Footer() {
                     href=""
                 >
                     <img
-                        alt="USA"
+                        alt="USA Flag"
                         src={`${process.env.PUBLIC_URL}/flags/Flag_USA.svg`}
                         height="60"
                         className="d-inline-block align-middle"
@@ -29,7 +29,7 @@ export default function Footer() {
                     href=""
                 >
                     <img
-                        alt="USA"
+                        alt="Luxembourg Flag"
                         src={`${process.env.PUBLIC_URL}/flags/Flag_Luxembourg.svg`}
                         height="60"
                         className="d-inline-block align-middle"
@@ -39,7 +39,7 @@ export default function Footer() {
                     href=""
                 >
                     <img
-                        alt="USA"
+                        alt="LGBTQ Flag"
                         src={`${process.env.PUBLIC_URL}/flags/Flag_LGBT.svg`}
                         height="60"
                         className="d-inline-block align-middle"
