@@ -1,8 +1,8 @@
-export default function About() {
+export default function Work() {
     return (
         <div className="Invalid-Container">
             <div className="H1-Header">
-                <h1>About</h1>
+                <h1>Work</h1>
                 <h1>This page is under construction.</h1>
             </div>
             <br />
