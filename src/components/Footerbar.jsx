@@ -14,37 +14,28 @@ export default function Footer() {
                 </Container>
             </Navbar.Collapse>
             <Navbar.Collapse className="justify-content-end">
-                <Container className="Navlinks-Box">
-                <Navbar.Brand
-                    href=""
-                >
-                    <img
-                        alt="USA Flag"
-                        src={`${process.env.PUBLIC_URL}/flags/Flag_USA.svg`}
-                        height="60"
-                        className="d-inline-block align-middle"
-                    />
-                </Navbar.Brand>
-                <Navbar.Brand
-                    href=""
-                >
-                    <img
-                        alt="Luxembourg Flag"
-                        src={`${process.env.PUBLIC_URL}/flags/Flag_Luxembourg.svg`}
-                        height="60"
-                        className="d-inline-block align-middle"
-                    />
-                </Navbar.Brand>
-                <Navbar.Brand
-                    href=""
-                >
-                    <img
-                        alt="LGBTQ Flag"
-                        src={`${process.env.PUBLIC_URL}/flags/Flag_LGBT.svg`}
-                        height="60"
-                        className="d-inline-block align-middle"
-                    />
-                </Navbar.Brand>
+                <Container className="Footer-Flags-Box">
+                    <Navbar.Brand href="">
+                        <img
+                            alt="USA Flag"
+                            src={`${process.env.PUBLIC_URL}/flags/Flag_USA.svg`}
+                            height="60"
+                        />
+                    </Navbar.Brand>
+                    <Navbar.Brand href="">
+                        <img
+                            alt="Luxembourg Flag"
+                            src={`${process.env.PUBLIC_URL}/flags/Flag_Luxembourg.svg`}
+                            height="60"
+                        />
+                    </Navbar.Brand>
+                    <Navbar.Brand href="">
+                        <img
+                            alt="LGBTQ Flag"
+                            src={`${process.env.PUBLIC_URL}/flags/Flag_LGBT.svg`}
+                            height="60"
+                        />
+                    </Navbar.Brand>
                 </Container>
             </Navbar.Collapse>
         </Navbar>

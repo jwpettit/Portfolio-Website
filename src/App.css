@@ -101,6 +101,18 @@
     display: inline;
 }
 
+.Footer-Text-Box {
+    display: flex;
+    justify-content: end;
+    margin-left: 20px;
+}
+
+.Footer-Flags-Box {
+    display: flex;
+    justify-content: end;
+    /* margin-right: 20px; */
+}
+
 .Homepage-Intro-Text {
     text-align: right;
     font-family: DIN-Bold;
