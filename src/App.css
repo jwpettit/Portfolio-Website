@@ -58,7 +58,14 @@
     font-family: DIN-Regular;
     color: #FFFFFF;
     font-size: 20px;
+}
 
+.Navlinks.active {
+    color: #FFE443;
+}
+
+.Navlinks:hover {
+    color: #FFE443;
 }
 
 .Navbar-Brand {
@@ -66,6 +73,14 @@
     color: #FFFFFF;
     font-size: 30px;
     margin-left: 20px;
+}
+
+.Navbar-Brand.active {
+    color: #FFE443;
+}
+
+.Navbar-Brand:hover{
+    color: #FFE443;
 }
 
 .Navbar-Visual {
