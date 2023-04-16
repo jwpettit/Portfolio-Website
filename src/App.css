@@ -141,7 +141,11 @@
 .Footer-Flags-Box {
     display: flex;
     justify-content: end;
-    /* margin-right: 20px; */
+}
+
+.Standard-Button {
+    background-color: #FFE443;
+    font-family: DIN-Regular;
 }
 
 
