@@ -1,3 +1,4 @@
+/* Site Fonts */
 @font-face {
     font-family: "DIN-Bold";
     src: url("./assets/fonts/DINB____.TTF") format("truetype");
@@ -13,11 +14,18 @@
     src: url("./assets/fonts/DIN Medium.ttf") format("truetype");
 }
 
+
+
+/* Global App Parameters */
 .App {
     background-color: #0F1120;
     height: 100%;
 }
 
+
+
+/* TO BE REMOVED */
+/* Used for V1 release, temporary page */
 .Temp-Landing {
     display: flex;
     flex-direction: column;
@@ -27,30 +35,53 @@
     text-align: center;
 }
 
+/* Used for V1 release, temporary page */
 .Temp-Header {
     font-family: DIN-Bold;
     color: #4c4e52;
 }
 
+/* Used for V1 release, temporary page */
 .Temp-Body {
     font-family: DIN-Regular;
     color: #4c4e52;
 }
 
+/* Used for V1 release, temporary page */
 .Icons-Box {
     display: flex;
     margin-top: 20px;
 }
 
+
+/* Used for V1 release, temporary page */
+.Icons {
+    margin: 10px;
+    color: #4c4e52;
+}
+
+
+
+/* Text Classes */
+.H1-Header {
+    font-family: DIN-Bold;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.H3-Header {
+    font-family: DIN-Regular;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+
+
+/* Component Classes */
 .Navlinks-Box {
     display: flex;
     justify-content: end;
     margin-right: 20px;
-}
-
-.Icons {
-    margin: 10px;
-    color: #4c4e52;
 }
 
 .Navlinks {
@@ -79,7 +110,7 @@
     color: #FFE443;
 }
 
-.Navbar-Brand:hover{
+.Navbar-Brand:hover {
     color: #FFE443;
 }
 
@@ -113,6 +144,9 @@
     /* margin-right: 20px; */
 }
 
+
+
+/* Homepage Classes */
 .Homepage-Intro-Text {
     text-align: right;
     font-family: DIN-Bold;
@@ -163,4 +197,16 @@
 .Homepage-Container>*:not(.Vertical-Line-1, .Vertical-Line-2) {
     flex: 1;
     text-align: justify;
+}
+
+
+
+/* Invalid Page Classes */
+.Invalid-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: calc(100vh - 160px);
 }
