@@ -15,7 +15,7 @@
 
 .App {
     background-color: #0F1120;
-    height: calc(100% - 80px - 80px);
+    height: 100%;
 }
 
 .Temp-Landing {
@@ -127,7 +127,7 @@
     justify-content: space-between;
     align-items: center;
     margin-right: 10%;
-    height: 100vh
+    height: calc(100vh - 160px);
 }
 
 .Homepage-Container>.Vertical-Line-1 {
