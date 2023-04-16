@@ -1,4 +1,3 @@
-// import Button, { ButtonProps } from "@mui/material/Button";
 import GoHomeButton from "../components/Button";
 
 export default function Invalid() {
