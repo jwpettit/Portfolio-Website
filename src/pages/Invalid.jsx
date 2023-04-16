@@ -22,7 +22,7 @@ export default function Invalid() {
                 <h3>Please enjoy this image of Rocky!</h3>
             </div>
             <br />
-            <GoHomeButton/>
+            <GoHomeButton />
         </div>
     );
 };
