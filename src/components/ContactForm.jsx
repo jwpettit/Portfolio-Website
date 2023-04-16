@@ -1,7 +1,8 @@
-import { useState } from "react";
+import React, { useState, useRef } from "react";
 import { TextField } from "@mui/material";
 import { styled } from "@mui/material/styles";
-import SubmitContactFormButton from "./SubmitContactFormButton";
+import Button from "@mui/material/Button";
+import emailjs from "@emailjs/browser";
 
 const YellowTextField = styled(TextField)({
     // Controls the label above the text box when active
@@ -43,62 +44,104 @@ const YellowTextField = styled(TextField)({
     },
 });
 
+const YellowButton = styled(Button)({
+    fontFamily: "DIN-Bold",
+    textTransform: "none",
+    color: "#0F1120",
+    backgroundColor: "#FFE443",
+    "&:hover": {
+        backgroundColor: "#FFEE8E",
+    },
+});
+
 export default function ContactForm() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [phoneNo, setPhoneNo] = useState("");
     const [message, setMessage] = useState("");
 
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        const emailData = {
+            from_name: name,
+            from_email: email,
+            from_phone_no: phoneNo,
+            message: message,
+        };
+
+        const serviceKey = process.env.REACT_APP_EMAILJS_SERVICE_KEY;
+        const templateKey = process.env.REACT_APP_EMAILJS_TEMPLATE_KEY;
+        const userKey = process.env.REACT_APP_EMAILJS_USER_KEY;
+
+        emailjs.send(serviceKey, templateKey, emailData, userKey).then(
+            (result) => {
+                console.log(result.text);
+            },
+            (error) => {
+                console.log(error.text);
+            }
+        );
+    };
+
     return (
-        <form>
+        <form ref={form} onSubmit={sendEmail}>
             <div>
                 <YellowTextField
+                    type="text"
                     label="Name"
-                    id="custom-css-outlined-input"
                     variant="standard"
                     fullWidth
                     required
+                    name="from_name"
                     value={name}
-                    onChange={e => setName(e.target.value)}
+                    onChange={(e) => setName(e.target.value)}
                 />
             </div>
             <div>
                 <YellowTextField
+                    type="email"
                     label="Email Address"
-                    id="custom-css-outlined-input"
                     variant="standard"
                     fullWidth
                     required
+                    name="from_email"
                     value={email}
-                    onChange={e => setEmail(e.target.value)}
+                    onChange={(e) => setEmail(e.target.value)}
                 />
             </div>
             <div>
                 {/* GOAL: Make this validate country tel numbers */}
                 <YellowTextField
+                    type="text"
                     label="Phone Number"
-                    id="custom-css-outlined-input"
                     variant="standard"
                     fullWidth
+                    name="from_phone_no"
                     value={phoneNo}
-                    onChange={e => setPhoneNo(e.target.value)}
+                    onChange={(e) => setPhoneNo(e.target.value)}
                 />
             </div>
             <div>
                 <YellowTextField
-                    id="standard-multiline-static"
+                    type="text"
                     label="Message"
                     required
                     multiline
                     fullWidth
                     rows={5}
                     variant="standard"
+                    name="message"
                     value={message}
-                    onChange={e => setMessage(e.target.value)}
+                    onChange={(e) => setMessage(e.target.value)}
                 />
             </div>
             <div>
-                <SubmitContactFormButton />
+                <YellowButton variant="contained" type="submit" value="Send">
+                    Submit
+                </YellowButton>
             </div>
         </form>
     );
