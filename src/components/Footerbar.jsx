@@ -14,7 +14,7 @@ export default function Footer() {
                 </Container>
             </Navbar.Collapse>
             <Navbar.Collapse className="justify-content-end">
-                <Container className="Footer-Flags-Box">
+                {/* <Container className="Footer-Flags-Box"> */}
                     {/* <Navbar.Brand href="">
                         <img
                             alt="USA Flag"
@@ -36,7 +36,7 @@ export default function Footer() {
                             height="60"
                         />
                     </Navbar.Brand> */}
-                </Container>
+                {/* </Container> */}
             </Navbar.Collapse>
         </Navbar>
     );
