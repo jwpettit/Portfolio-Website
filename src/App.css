@@ -252,9 +252,10 @@
 
 .Contact-Icons-Box {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 
 .Contact-Icons {
     color: #FFE443;
+    margin: 10px;
 }

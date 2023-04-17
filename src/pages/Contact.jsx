@@ -1,5 +1,7 @@
 import ContactForm from "../components/ContactForm";
 import ContactLinkedInIcon from "../icons/ContactLinkedIn";
+import ContactGitHubIcon from "../icons/ContactGitHub";
+import ContactPhoneIcon from "../icons/ContactPhone";
 
 export default function Contact() {
     return (
@@ -15,6 +17,8 @@ export default function Contact() {
                     <div className="Contact-Column">
                         <div className="Contact-Icons-Box">
                             <ContactLinkedInIcon />
+                            <ContactGitHubIcon />
+                            <ContactPhoneIcon />
                         </div>
                         <div>
                             <p className="Body-Text">
