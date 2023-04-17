@@ -1,4 +1,5 @@
 import ContactForm from "../components/ContactForm";
+import ContactLinkedInIcon from "../icons/ContactLinkedIn";
 
 export default function Contact() {
     return (
@@ -12,12 +13,18 @@ export default function Contact() {
                 </div>
                 <div className="Contact-Container-Flex">
                     <div className="Contact-Column">
-                        <p className="Body-Text">
-                            I'm currently seeking roles in software
-                            engineering/development that are based in California
-                            or remote. Also interested to chat with anyone! Want
-                            to get in touch? Fill out the form to contact me!
-                        </p>
+                        <div className="Contact-Icons-Box">
+                            <ContactLinkedInIcon />
+                        </div>
+                        <div>
+                            <p className="Body-Text">
+                                I'm currently seeking roles in software
+                                engineering/development that are based in
+                                California or remote. Also interested to chat
+                                with anyone! Want to get in touch? Fill out the
+                                form to contact me!
+                            </p>
+                        </div>
                     </div>
                     <div className="Contact-Column">
                         <ContactForm />

@@ -31,7 +31,7 @@
 }
 
 .Page-Content-Container-1 {
-    width: 1200px;
+    width: 1100px;
     margin-top: 8vh;
     display: flex;
     flex-direction: column;
@@ -248,4 +248,13 @@
 
 .Contact-Column {
     width: 45%;
+}
+
+.Contact-Icons-Box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Contact-Icons {
+    color: #FFE443;
 }
