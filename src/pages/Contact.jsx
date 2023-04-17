@@ -28,8 +28,7 @@ export default function Contact() {
                             </p>
                             <p>
                                 I'm currently seeking software
-                                engineering/development roles that are based in
-                                California or remote.
+                                engineering/development roles.
                             </p>
                         </div>
                     </div>
