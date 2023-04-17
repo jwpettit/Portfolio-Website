@@ -412,6 +412,70 @@ export default function Resume() {
                     <div className="H4-Header">
                         <h4>Technical Skills</h4>
                     </div>
+
+                    <div className="Resume-Header-Container">
+                        <div className="Resume-Header-Title-Container">
+                            <div className="Resume-Body-Text-Bold">
+                                <p>Programming Languages</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Resume-Body-Text">
+                        <p>Python 3, JavaScript ES6+, SQL, HTML5, CSS</p>
+                    </div>
+
+                    <div className="Resume-Header-Container">
+                        <div className="Resume-Header-Title-Container">
+                            <div className="Resume-Body-Text-Bold">
+                                <p>Front-End Technologies</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Resume-Body-Text">
+                        <p>
+                            DOM Manipulation, Websockets, React, React Hooks,
+                            Redux Toolkit
+                        </p>
+                    </div>
+
+                    <div className="Resume-Header-Container">
+                        <div className="Resume-Header-Title-Container">
+                            <div className="Resume-Body-Text-Bold">
+                                <p>Back-End Technologies</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Resume-Body-Text">
+                        <p>Django 4, FastAPI, PostgreSQL, MongoDB, RabbitMQ</p>
+                    </div>
+
+                    <div className="Resume-Header-Container">
+                        <div className="Resume-Header-Title-Container">
+                            <div className="Resume-Body-Text-Bold">
+                                <p>System Design Tools</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Resume-Body-Text">
+                        <p>
+                            Monoliths, Microservices, Domain-Driven Design,
+                            Message Passing, CI/CD
+                        </p>
+                    </div>
+
+                    <div className="Resume-Header-Container">
+                        <div className="Resume-Header-Title-Container">
+                            <div className="Resume-Body-Text-Bold">
+                                <p>Product Design Tools</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Resume-Body-Text">
+                        <p>
+                            Adobe Creative Suite, SolidWorks, Autodesk Fusion
+                            360
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
