@@ -92,8 +92,27 @@
     color: #FFFFFF;
 }
 
+.H4-Header {
+    font-family: DIN-Regular;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
 .Body-Text {
     font-family: DIN-Regular;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.Body-Text-Bold {
+    font-family: DIN-Bold;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.Body-Text-Right {
+    font-family: DIN-Regular;
+    justify-content: right;
     font-size: 18px;
     color: #FFFFFF;
 }
