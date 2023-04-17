@@ -273,3 +273,13 @@
     justify-content: flex-end;
     margin-top: 10px;
 }
+
+.Phone-Modal-Header {
+    font-family: DIN-Bold;
+    color: #0F1120;
+}
+
+.Phone-Modal-Body {
+    font-family: DIN-Regular;
+    color: #0F1120;
+}

@@ -24,10 +24,10 @@ export default function ContactPhoneIcon() {
                 <LocalPhoneIcon className="Contact-Icons" />
             </StyledIconButton>
             <Modal centered show={phoneModal}>
-                <Modal.Header className="Temp-Header">
+                <Modal.Header className="Phone-Modal-Header">
                     <Modal.Title>Call or Text</Modal.Title>
                 </Modal.Header>
-                <Modal.Body className="Temp-Body">
+                <Modal.Body className="Phone-Modal-Body">
                     <p> 🇺🇸 +1 - 415 - 690 - 0415</p>
                 </Modal.Body>
                 <Modal.Footer>
