@@ -1,6 +1,7 @@
 import ContactForm from "../components/ContactForm";
 import ContactLinkedInIcon from "../icons/ContactLinkedIn";
 import ContactGitHubIcon from "../icons/ContactGitHub";
+import ContactGitLabIcon from "../icons/ContactGitLab";
 import ContactPhoneIcon from "../icons/ContactPhone";
 
 export default function Contact() {
@@ -18,17 +19,17 @@ export default function Contact() {
                         <div className="Contact-Icons-Box Contact-Top-Space">
                             <ContactLinkedInIcon />
                             <ContactGitHubIcon />
+                            <ContactGitLabIcon />
                             <ContactPhoneIcon />
                         </div>
                         <div className="Body-Text Contact-Top-Space">
                             <p>
-                                I'm interested in chatting with you! Want to get
-                                in touch? Fill out the form to contact me!
+                                Let's talk! Fill out the form to get in touch.
                             </p>
                             <p>
-                                Currently, I'm seeking roles in software
-                                engineering/development that are preferably
-                                based in California or remote.
+                                I'm currently seeking software
+                                engineering/development roles that are based in
+                                California or remote.
                             </p>
                         </div>
                     </div>
