@@ -19,11 +19,11 @@ export default function Resume() {
                     </div>
                     <div className="Resume-Header-Container">
                         <div className="Resume-Header-Title-Container">
-                            <div className="Body-Text-Bold">
+                            <div className="Resume-Body-Text-Bold">
                                 <p>BrewHop</p>
                             </div>
                             <div className="Resume-Text-Divider" />
-                            <div className="Body-Text">
+                            <div className="Resume-Body-Text">
                                 <a
                                     href="https://gitlab.com/brewhoppers/brew-hop"
                                     target="blank"
@@ -32,11 +32,11 @@ export default function Resume() {
                                 </a>
                             </div>
                         </div>
-                        <div className="Body-Text-Right">
+                        <div className="Resume-Body-Text-Right">
                             <p>2022</p>
                         </div>
                     </div>
-                    <div className="Body-Text">
+                    <div className="Resume-Body-Text">
                         <p>App to discover new breweries</p>
                         <ul>
                             <li>
@@ -57,11 +57,11 @@ export default function Resume() {
                     </div>
                     <div className="Resume-Header-Container">
                         <div className="Resume-Header-Title-Container">
-                            <div className="Body-Text-Bold">
+                            <div className="Resume-Body-Text-Bold">
                                 <p>Treampardy</p>
                             </div>
                             <div className="Resume-Text-Divider" />
-                            <div className="Body-Text">
+                            <div className="Resume-Body-Text">
                                 <a
                                     href="https://gitlab.com/treamforce/treampardy-take-2"
                                     target="blank"
@@ -70,11 +70,11 @@ export default function Resume() {
                                 </a>
                             </div>
                         </div>
-                        <div className="Body-Text-Right">
+                        <div className="Resume-Body-Text-Right">
                             <p>2022</p>
                         </div>
                     </div>
-                    <div className="Body-Text">
+                    <div className="Resume-Body-Text">
                         <p>App to discover new breweries</p>
                         <ul>
                             <li>
@@ -93,11 +93,11 @@ export default function Resume() {
                     </div>
                     <div className="Resume-Header-Container">
                         <div className="Resume-Header-Title-Container">
-                            <div className="Body-Text-Bold">
+                            <div className="Resume-Body-Text-Bold">
                                 <p>AutoBahn</p>
                             </div>
                             <div className="Resume-Text-Divider" />
-                            <div className="Body-Text">
+                            <div className="Resume-Body-Text">
                                 <a
                                     href="https://gitlab.com/jwpettit/project-beta"
                                     target="blank"
@@ -106,11 +106,11 @@ export default function Resume() {
                                 </a>
                             </div>
                         </div>
-                        <div className="Body-Text-Right">
+                        <div className="Resume-Body-Text-Right">
                             <p>2022</p>
                         </div>
                     </div>
-                    <div className="Body-Text">
+                    <div className="Resume-Body-Text">
                         <p>App to discover new breweries</p>
                         <ul>
                             <li>
@@ -127,6 +127,103 @@ export default function Resume() {
 
                     <div className="H4-Header">
                         <h4>Professional Experience</h4>
+                    </div>
+
+                    <div className="Resume-Header-Container">
+                        <div className="Resume-Header-Title-Container">
+                            <div className="Resume-Body-Text-Bold">
+                                <p>Code for San Francisco</p>
+                            </div>
+                            <div className="Resume-Text-Divider" />
+                            <div className="Resume-Body-Text">
+                                <p>Volunteer Software Engineer</p>
+                            </div>
+                            <div className="Resume-Text-Divider" />
+                            <div className="Resume-Body-Text">
+                                <p>San Francisco, CA</p>
+                            </div>
+                        </div>
+                        <div className="Resume-Body-Text-Right">
+                            <p>2021-2022</p>
+                        </div>
+                    </div>
+
+                    <div className="Resume-Body-Text">
+                        <ul>
+                            <li>
+                                Led design, engineering, prototyping, and
+                                manufacturing for a startup subscription box
+                                service
+                            </li>
+                            <li>
+                                Introduced new production techniques such as
+                                machined aluminum and ceramics,
+                            </li>
+                            <li>
+                                Managed project management system by setting
+                                milestones, sharing updates with stakeholders
+                                and tracking development progress against
+                                timelines
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                    <div className="Resume-Header-Container">
+                        <div className="Resume-Header-Title-Container">
+                            <div className="Resume-Body-Text-Bold">
+                                <p>Days United</p>
+                            </div>
+                            <div className="Resume-Text-Divider" />
+                            <div className="Resume-Body-Text">
+                                <p>Lead Product Design Engineer</p>
+                            </div>
+                            <div className="Resume-Text-Divider" />
+                            <div className="Resume-Body-Text">
+                                <p>Mountain View, CA</p>
+                            </div>
+                        </div>
+                        <div className="Resume-Body-Text-Right">
+                            <p>2021-2022</p>
+                        </div>
+                    </div>
+                    <div className="Resume-Header-Container">
+                        <div className="Resume-Header-Title-Container">
+                            <div className="Resume-Body-Text-Bold">
+                                <p>Days United</p>
+                            </div>
+                            <div className="Resume-Text-Divider" />
+                            <div className="Resume-Body-Text">
+                                <p>Business Consultant</p>
+                            </div>
+                            <div className="Resume-Text-Divider" />
+                            <div className="Resume-Body-Text">
+                                <p>Mountain View, CA</p>
+                            </div>
+                        </div>
+                        <div className="Resume-Body-Text-Right">
+                            <p>2020-2021</p>
+                        </div>
+                    </div>
+                    <div className="Resume-Body-Text">
+                        <ul>
+                            <li>
+                                Led design, engineering, prototyping, and
+                                manufacturing for a startup subscription box
+                                service
+                            </li>
+                            <li>
+                                Introduced new production techniques such as
+                                machined aluminum and ceramics,
+                            </li>
+                            <li>
+                                Managed project management system by setting
+                                milestones, sharing updates with stakeholders
+                                and tracking development progress against
+                                timelines
+                            </li>
+                        </ul>
                     </div>
                 </div>
 

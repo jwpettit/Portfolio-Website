@@ -96,7 +96,7 @@
     font-family: DIN-Regular;
     font-size: 30px;
     color: #FFFFFF;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .Body-Text {
@@ -337,7 +337,6 @@
 .Resume-Header-Container {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
 }
 
 .Resume-Header-Title-Container {
@@ -346,8 +345,28 @@
 
 .Resume-Text-Divider {
     border-left: 2px solid #FFFFFF;
-    height: 26px;
+    height: 20px;
     margin-left: 12px;
     margin-right: 12px;
     justify-content: center;
+}
+
+.Resume-Body-Text {
+    font-family: DIN-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    list-style: disc;
+}
+
+.Resume-Body-Text-Bold {
+    font-family: DIN-Bold;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.Resume-Body-Text-Right {
+    font-family: DIN-Regular;
+    justify-content: right;
+    font-size: 14px;
+    color: #FFFFFF;
 }
