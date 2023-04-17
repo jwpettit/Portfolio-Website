@@ -264,6 +264,10 @@
     margin-top: 20px;
 }
 
+.Contact-Header-Top-Space {
+    margin-top: 10px;
+}
+
 .Contact-Submit-Button-Positioning {
     display: flex;
     justify-content: flex-end;

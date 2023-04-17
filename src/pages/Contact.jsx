@@ -10,23 +10,25 @@ export default function Contact() {
                 <div className="H1-Header">
                     <h1>Let's work together!</h1>
                 </div>
-                <div className="H3-Header Contact-Top-Space">
-                    <h3>Contact me:</h3>
-                </div>
                 <div className="Contact-Container-Flex">
                     <div className="Contact-Column">
-                        <div className="Contact-Icons-Box">
+                        <div className="H3-Header Contact-Header-Top-Space">
+                            <h3>Contact me:</h3>
+                        </div>
+                        <div className="Contact-Icons-Box Contact-Top-Space">
                             <ContactLinkedInIcon />
                             <ContactGitHubIcon />
                             <ContactPhoneIcon />
                         </div>
                         <div className="Body-Text Contact-Top-Space">
                             <p>
-                                I'm currently seeking roles in software
-                                engineering/development that are based in
-                                California or remote. Also interested to chat
-                                with anyone! Want to get in touch? Fill out the
-                                form to contact me!
+                                I'm interested in chatting with you! Want to get
+                                in touch? Fill out the form to contact me!
+                            </p>
+                            <p>
+                                Currently, I'm seeking roles in software
+                                engineering/development that are preferably
+                                based in California or remote.
                             </p>
                         </div>
                     </div>
