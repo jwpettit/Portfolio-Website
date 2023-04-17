@@ -25,6 +25,9 @@
 
 .Page-Background-Container {
     min-height: calc(100vh - 160px);
+    display: flex;
+    width: 100vw;
+    justify-content: center;
 }
 
 
@@ -218,4 +221,15 @@
     justify-content: center;
     text-align: center;
     height: calc(100vh - 160px);
+}
+
+
+
+
+/* Contact Page Classes */
+.Contact-Container-1 {
+    width: 1200px;
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
 }
