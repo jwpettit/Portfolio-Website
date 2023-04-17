@@ -38,7 +38,7 @@ export default function Resume() {
                     </div>
                     <div className="Resume-Body-Text">
                         <p>App to discover new breweries</p>
-                        <ul>
+                        <ul className="Resume-List-Margin">
                             <li>
                                 Built Log-in/out forms, Nav, and Signup forms
                                 from Bootstrap components and implemented
@@ -76,7 +76,7 @@ export default function Resume() {
                     </div>
                     <div className="Resume-Body-Text">
                         <p>App to discover new breweries</p>
-                        <ul>
+                        <ul className="Resume-List-Margin">
                             <li>
                                 Built integration with third-party jservice.io
                                 API to supply app’s questions and categories
@@ -112,7 +112,7 @@ export default function Resume() {
                     </div>
                     <div className="Resume-Body-Text">
                         <p>App to discover new breweries</p>
-                        <ul>
+                        <ul className="Resume-List-Margin">
                             <li>
                                 Built service and inventory microservices,
                                 constructing RESTful APIs in Django, and
@@ -149,26 +149,13 @@ export default function Resume() {
                     </div>
 
                     <div className="Resume-Body-Text">
-                        <ul>
+                        <ul className="Resume-List-Margin">
                             <li>
-                                Led design, engineering, prototyping, and
-                                manufacturing for a startup subscription box
-                                service
-                            </li>
-                            <li>
-                                Introduced new production techniques such as
-                                machined aluminum and ceramics,
-                            </li>
-                            <li>
-                                Managed project management system by setting
-                                milestones, sharing updates with stakeholders
-                                and tracking development progress against
-                                timelines
+                                Currently working on project iWalk to build
+                                React charts for the app's admin panel
                             </li>
                         </ul>
                     </div>
-
-
 
                     <div className="Resume-Header-Container">
                         <div className="Resume-Header-Title-Container">
@@ -207,7 +194,7 @@ export default function Resume() {
                         </div>
                     </div>
                     <div className="Resume-Body-Text">
-                        <ul>
+                        <ul className="Resume-List-Margin">
                             <li>
                                 Led design, engineering, prototyping, and
                                 manufacturing for a startup subscription box

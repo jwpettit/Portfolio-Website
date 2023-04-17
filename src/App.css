@@ -97,6 +97,7 @@
     font-size: 30px;
     color: #FFFFFF;
     margin-top: 30px;
+    margin-bottom: 14px;
 }
 
 .Body-Text {
@@ -337,10 +338,16 @@
 .Resume-Header-Container {
     display: flex;
     justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .Resume-Header-Title-Container {
     display: flex;
+}
+
+.Resume-List-Margin {
+    margin-bottom: 30px;
 }
 
 .Resume-Text-Divider {
