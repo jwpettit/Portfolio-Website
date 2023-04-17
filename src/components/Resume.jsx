@@ -12,6 +12,8 @@ export default function Resume() {
                 </div>
             </div>
 
+            <br />
+
             <div className="Resume-Body-Container">
                 <div className="Resume-Main-Column">
                     <div className="H4-Header">
@@ -424,6 +426,8 @@ export default function Resume() {
                         <p>Python 3, JavaScript ES6+, SQL, HTML5, CSS</p>
                     </div>
 
+                    <br />
+
                     <div className="Resume-Header-Container">
                         <div className="Resume-Header-Title-Container">
                             <div className="Resume-Body-Text-Bold">
@@ -438,6 +442,8 @@ export default function Resume() {
                         </p>
                     </div>
 
+                    <br />
+
                     <div className="Resume-Header-Container">
                         <div className="Resume-Header-Title-Container">
                             <div className="Resume-Body-Text-Bold">
@@ -448,6 +454,8 @@ export default function Resume() {
                     <div className="Resume-Body-Text">
                         <p>Django 4, FastAPI, PostgreSQL, MongoDB, RabbitMQ</p>
                     </div>
+
+                    <br />
 
                     <div className="Resume-Header-Container">
                         <div className="Resume-Header-Title-Container">
@@ -462,6 +470,8 @@ export default function Resume() {
                             Message Passing, CI/CD
                         </p>
                     </div>
+
+                    <br />
 
                     <div className="Resume-Header-Container">
                         <div className="Resume-Header-Title-Container">
