@@ -283,3 +283,32 @@
     font-family: DIN-Regular;
     color: #0F1120;
 }
+
+
+
+
+/* Resume Component Classes */
+.Resume-Title-Icon-Container {
+    display: flex;
+}
+
+.Resume-Download-Icon {
+    color: #FFE443;
+}
+
+.Resume-Body-Container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Resume-Main-Column {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.Resume-Secondary-Column {
+    display: flex;
+    flex-direction: column;
+    width: 30%
+}
