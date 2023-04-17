@@ -2,6 +2,8 @@ import React, { useState, useRef } from "react";
 import { TextField } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import Button from "@mui/material/Button";
+import LoadingButton from "@mui/lab/LoadingButton";
+import SendIcon from "@mui/icons-material/Send";
 import emailjs from "@emailjs/browser";
 
 const YellowTextField = styled(TextField)({
@@ -44,13 +46,18 @@ const YellowTextField = styled(TextField)({
     },
 });
 
-const YellowButton = styled(Button)({
+const YellowButton = styled(LoadingButton)({
     fontFamily: "DIN-Bold",
     textTransform: "none",
     color: "#0F1120",
     backgroundColor: "#FFE443",
     "&:hover": {
         backgroundColor: "#FFEE8E",
+    },
+    // Styles for the button when loading
+    "&.Mui-disabled": {
+        backgroundColor: "#FFEE8E",
+        color: "#0F1120",
     },
 });
 
@@ -59,8 +66,16 @@ export default function ContactForm() {
     const [email, setEmail] = useState("");
     const [phoneNo, setPhoneNo] = useState("");
     const [message, setMessage] = useState("");
+    const [sending, setSending] = useState(false);
 
     const form = useRef();
+
+    const clearFields = () => {
+        setName("");
+        setEmail("");
+        setPhoneNo("");
+        setMessage("");
+    };
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -76,11 +91,16 @@ export default function ContactForm() {
         const templateKey = process.env.REACT_APP_EMAILJS_TEMPLATE_KEY;
         const userKey = process.env.REACT_APP_EMAILJS_USER_KEY;
 
+        setSending(true);
+
         emailjs.send(serviceKey, templateKey, emailData, userKey).then(
             (result) => {
+                setSending(false);
+                clearFields();
                 console.log(result.text);
             },
             (error) => {
+                setSending(false);
                 console.log(error.text);
             }
         );
@@ -139,7 +159,14 @@ export default function ContactForm() {
                 />
             </div>
             <div>
-                <YellowButton variant="contained" type="submit" value="Send">
+                <YellowButton
+                    variant="contained"
+                    type="submit"
+                    value="Send"
+                    loading={sending}
+                    loadingPosition="end"
+                    endIcon={<SendIcon />}
+                >
                     Submit
                 </YellowButton>
             </div>
