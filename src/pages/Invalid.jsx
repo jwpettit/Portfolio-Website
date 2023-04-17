@@ -14,7 +14,7 @@ export default function Invalid() {
                 <img
                     alt="A Greyhound named Rocky"
                     src={`${process.env.PUBLIC_URL}/rocky/rocky1.png`}
-                    height="400"
+                    height="300"
                 />
             </div>
             <br />
