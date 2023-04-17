@@ -10,7 +10,7 @@ export default function Contact() {
                 <div className="H1-Header">
                     <h1>Let's work together!</h1>
                 </div>
-                <div className="H3-Header">
+                <div className="H3-Header Contact-Top-Space">
                     <h3>Contact me:</h3>
                 </div>
                 <div className="Contact-Container-Flex">
@@ -20,8 +20,8 @@ export default function Contact() {
                             <ContactGitHubIcon />
                             <ContactPhoneIcon />
                         </div>
-                        <div>
-                            <p className="Body-Text">
+                        <div className="Body-Text Contact-Top-Space">
+                            <p>
                                 I'm currently seeking roles in software
                                 engineering/development that are based in
                                 California or remote. Also interested to chat

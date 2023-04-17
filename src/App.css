@@ -241,7 +241,7 @@
 
 /* Contact Page Classes */
 .Contact-Container-Flex {
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -258,4 +258,8 @@
 .Contact-Icons {
     color: #FFE443;
     margin: 10px;
+}
+
+.Contact-Top-Space {
+    margin-top: 20px;
 }
