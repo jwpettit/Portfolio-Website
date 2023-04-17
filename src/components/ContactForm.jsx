@@ -1,9 +1,10 @@
 import React, { useState, useRef } from "react";
 import { TextField } from "@mui/material";
 import { styled } from "@mui/material/styles";
-import Button from "@mui/material/Button";
 import LoadingButton from "@mui/lab/LoadingButton";
 import SendIcon from "@mui/icons-material/Send";
+import Alert from "@mui/material/Alert";
+import Snackbar from "@mui/material/Snackbar";
 import emailjs from "@emailjs/browser";
 
 const YellowTextField = styled(TextField)({
@@ -61,12 +62,28 @@ const YellowButton = styled(LoadingButton)({
     },
 });
 
+const CustomAlert = styled(Alert)({
+    fontFamily: "DIN-Regular",
+});
+
 export default function ContactForm() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [phoneNo, setPhoneNo] = useState("");
     const [message, setMessage] = useState("");
     const [sending, setSending] = useState(false);
+
+    const [showSuccessAlert, setShowSuccessAlert] = useState(false);
+    const [showErrorAlert, setShowErrorAlert] = useState(true);
+
+    const handleCloseAlert = (event, reason) => {
+        if (reason === "clickaway") {
+            return;
+        }
+
+        setShowSuccessAlert(false);
+        setShowErrorAlert(false);
+    };
 
     const form = useRef();
 
@@ -169,6 +186,30 @@ export default function ContactForm() {
                 >
                     Submit
                 </YellowButton>
+            </div>
+            <div>
+                <Snackbar
+                    open={showSuccessAlert}
+                    autoHideDuration={6000}
+                    onClose={handleCloseAlert}
+                    anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
+                >
+                    <CustomAlert severity="success">
+                        Email sent successfully!
+                    </CustomAlert>
+                </Snackbar>
+            </div>
+            <div>
+                <Snackbar
+                    open={showErrorAlert}
+                    autoHideDuration={6000}
+                    onClose={handleCloseAlert}
+                    anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
+                >
+                    <CustomAlert severity="error">
+                        Something went wrong, please try again!
+                    </CustomAlert>
+                </Snackbar>
             </div>
         </form>
     );
