@@ -126,6 +126,8 @@ export default function Resume() {
                         </ul>
                     </div>
 
+                    <br />
+
                     <div className="H4-Header">
                         <h4>Professional Experience</h4>
                     </div>
@@ -352,6 +354,61 @@ export default function Resume() {
                     <div className="H4-Header">
                         <h4>Education</h4>
                     </div>
+
+                    <div className="Resume-Header-Container">
+                        <div className="Resume-Header-Title-Container">
+                            <div className="Resume-Body-Text-Bold">
+                                <p>Hack Reactor</p>
+                            </div>
+                        </div>
+                        <div className="Resume-Body-Text-Right">
+                            <p>2022</p>
+                        </div>
+                    </div>
+                    <div className="Resume-Body-Text">
+                        <p>Advanced Software Engineering Certificate</p>
+                    </div>
+
+                    <br />
+
+                    <div className="Resume-Header-Container">
+                        <div className="Resume-Header-Title-Container">
+                            <div className="Resume-Body-Text-Bold">
+                                <p>General Assembly</p>
+                            </div>
+                        </div>
+                        <div className="Resume-Body-Text-Right">
+                            <p>2017</p>
+                        </div>
+                    </div>
+                    <div className="Resume-Body-Text">
+                        <p>Continuing Studies in User Experience Design</p>
+                    </div>
+
+                    <br />
+
+                    <div className="Resume-Header-Container">
+                        <div className="Resume-Header-Title-Container">
+                            <div className="Resume-Body-Text-Bold">
+                                <p>Virginia Tech</p>
+                            </div>
+                        </div>
+                        <div className="Resume-Body-Text-Right">
+                            <p>2010-2014</p>
+                        </div>
+                    </div>
+                    <div className="Resume-Body-Text">
+                        <p>Bachelor of Science in Industrial Design</p>
+                        <p>
+                            Relevant Coursework: Design Lab 1-4, Human Factors,
+                            Materials and Processes, Design Research, History of
+                            Industrial Design, 3D Modeling (SolidWorks focus),
+                            Design for Underrepresented Communities
+                        </p>
+                    </div>
+
+                    <br />
+
                     <div className="H4-Header">
                         <h4>Technical Skills</h4>
                     </div>
