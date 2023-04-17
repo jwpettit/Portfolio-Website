@@ -5,6 +5,7 @@ import LoadingButton from "@mui/lab/LoadingButton";
 import SendIcon from "@mui/icons-material/Send";
 import Alert from "@mui/material/Alert";
 import Snackbar from "@mui/material/Snackbar";
+import Slide from "@mui/material/Slide";
 import emailjs from "@emailjs/browser";
 
 const YellowTextField = styled(TextField)({
@@ -74,7 +75,7 @@ export default function ContactForm() {
     const [sending, setSending] = useState(false);
 
     const [showSuccessAlert, setShowSuccessAlert] = useState(false);
-    const [showErrorAlert, setShowErrorAlert] = useState(true);
+    const [showErrorAlert, setShowErrorAlert] = useState(false);
 
     const handleCloseAlert = (event, reason) => {
         if (reason === "clickaway") {
@@ -113,11 +114,13 @@ export default function ContactForm() {
         emailjs.send(serviceKey, templateKey, emailData, userKey).then(
             (result) => {
                 setSending(false);
+                setShowSuccessAlert(true);
                 clearFields();
                 console.log(result.text);
             },
             (error) => {
                 setSending(false);
+                setShowErrorAlert(true);
                 console.log(error.text);
             }
         );
@@ -192,7 +195,8 @@ export default function ContactForm() {
                     open={showSuccessAlert}
                     autoHideDuration={6000}
                     onClose={handleCloseAlert}
-                    anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
+                    anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
+                    TransitionComponent={Slide}
                 >
                     <CustomAlert severity="success">
                         Email sent successfully!
@@ -204,7 +208,8 @@ export default function ContactForm() {
                     open={showErrorAlert}
                     autoHideDuration={6000}
                     onClose={handleCloseAlert}
-                    anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
+                    anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
+                    TransitionComponent={Slide}
                 >
                     <CustomAlert severity="error">
                         Something went wrong, please try again!
