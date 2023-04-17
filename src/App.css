@@ -30,6 +30,13 @@
     justify-content: center;
 }
 
+.Page-Content-Container-1 {
+    width: 1200px;
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 
@@ -82,6 +89,12 @@
 .H3-Header {
     font-family: DIN-Regular;
     font-size: 40px;
+    color: #FFFFFF;
+}
+
+.Body-Text {
+    font-family: DIN-Regular;
+    font-size: 18px;
     color: #FFFFFF;
 }
 
@@ -227,9 +240,12 @@
 
 
 /* Contact Page Classes */
-.Contact-Container-1 {
-    width: 1200px;
-    margin-top: 8vh;
+.Contact-Container-Flex {
+    margin-top: 20px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Contact-Column {
+    width: 45%;
 }
