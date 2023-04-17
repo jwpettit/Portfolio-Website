@@ -9,6 +9,7 @@ import Slide from "@mui/material/Slide";
 import emailjs from "@emailjs/browser";
 
 const YellowTextField = styled(TextField)({
+    marginBottom: "10px",
     // Controls the label above the text box when active
     "& label.Mui-focused": {
         fontFamily: "DIN-Regular",
@@ -178,7 +179,7 @@ export default function ContactForm() {
                     onChange={(e) => setMessage(e.target.value)}
                 />
             </div>
-            <div>
+            <div className="Contact-Submit-Button-Positioning">
                 <YellowButton
                     variant="contained"
                     type="submit"
