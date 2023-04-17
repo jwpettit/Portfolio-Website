@@ -58,6 +58,9 @@ export default function Resume() {
                             </li>
                         </ul>
                     </div>
+
+<br/>
+
                     <div className="Resume-Header-Container">
                         <div className="Resume-Header-Title-Container">
                             <div className="Resume-Body-Text-Bold">
@@ -94,6 +97,9 @@ export default function Resume() {
                             </li>
                         </ul>
                     </div>
+
+<br/>
+
                     <div className="Resume-Header-Container">
                         <div className="Resume-Header-Title-Container">
                             <div className="Resume-Body-Text-Bold">
@@ -149,7 +155,7 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="Resume-Body-Text-Right">
-                            <p>2021-2022</p>
+                            <p>2023 – Present</p>
                         </div>
                     </div>
 
@@ -161,6 +167,9 @@ export default function Resume() {
                             </li>
                         </ul>
                     </div>
+
+<br/>
+
                     <div className="Resume-Header-Container">
                         <div className="Resume-Header-Title-Container">
                             <div className="Resume-Body-Text-Bold">
@@ -176,7 +185,7 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="Resume-Body-Text-Right">
-                            <p>2021-2022</p>
+                            <p>2021 – 2022</p>
                         </div>
                     </div>
                     <div className="Resume-Header-Container">
@@ -194,7 +203,7 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="Resume-Body-Text-Right">
-                            <p>2020-2021</p>
+                            <p>2020 – 2021</p>
                         </div>
                     </div>
                     <div className="Resume-Body-Text">
@@ -216,6 +225,9 @@ export default function Resume() {
                             </li>
                         </ul>
                     </div>
+
+                    <br/>
+
                     <div className="Resume-Header-Container">
                         <div className="Resume-Header-Title-Container">
                             <div className="Resume-Body-Text-Bold">
@@ -231,7 +243,7 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="Resume-Body-Text-Right">
-                            <p>2018-2021</p>
+                            <p>2018 – 2021</p>
                         </div>
                     </div>
                     <div className="Resume-Body-Text">
@@ -261,6 +273,9 @@ export default function Resume() {
                             </li>
                         </ul>
                     </div>
+
+                    <br/>
+
                     <div className="Resume-Header-Container">
                         <div className="Resume-Header-Title-Container">
                             <div className="Resume-Body-Text-Bold">
@@ -276,7 +291,7 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="Resume-Body-Text-Right">
-                            <p>2017-2018</p>
+                            <p>2017 – 2018</p>
                         </div>
                     </div>
                     <div className="Resume-Body-Text">
@@ -310,6 +325,9 @@ export default function Resume() {
                             </li>
                         </ul>
                     </div>
+
+                    <br/>
+
                     <div className="Resume-Header-Container">
                         <div className="Resume-Header-Title-Container">
                             <div className="Resume-Body-Text-Bold">
@@ -325,7 +343,7 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="Resume-Body-Text-Right">
-                            <p>2015-2017</p>
+                            <p>2015 – 2017</p>
                         </div>
                     </div>
                     <div className="Resume-Body-Text">
@@ -396,7 +414,7 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="Resume-Body-Text-Right">
-                            <p>2010-2014</p>
+                            <p>2010 – 2014</p>
                         </div>
                     </div>
                     <div className="Resume-Body-Text">
