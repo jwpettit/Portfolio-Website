@@ -59,7 +59,7 @@ export default function Resume() {
                         </ul>
                     </div>
 
-<br/>
+                    <br />
 
                     <div className="Resume-Header-Container">
                         <div className="Resume-Header-Title-Container">
@@ -98,7 +98,7 @@ export default function Resume() {
                         </ul>
                     </div>
 
-<br/>
+                    <br />
 
                     <div className="Resume-Header-Container">
                         <div className="Resume-Header-Title-Container">
@@ -168,7 +168,7 @@ export default function Resume() {
                         </ul>
                     </div>
 
-<br/>
+                    <br />
 
                     <div className="Resume-Header-Container">
                         <div className="Resume-Header-Title-Container">
@@ -226,7 +226,7 @@ export default function Resume() {
                         </ul>
                     </div>
 
-                    <br/>
+                    <br />
 
                     <div className="Resume-Header-Container">
                         <div className="Resume-Header-Title-Container">
@@ -274,7 +274,7 @@ export default function Resume() {
                         </ul>
                     </div>
 
-                    <br/>
+                    <br />
 
                     <div className="Resume-Header-Container">
                         <div className="Resume-Header-Title-Container">
@@ -326,7 +326,7 @@ export default function Resume() {
                         </ul>
                     </div>
 
-                    <br/>
+                    <br />
 
                     <div className="Resume-Header-Container">
                         <div className="Resume-Header-Title-Container">
