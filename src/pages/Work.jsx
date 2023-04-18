@@ -42,7 +42,9 @@ export default function Work() {
                                 present them to the user. The site contains a
                                 React front-end, as well as multiple
                                 microservice API's which are built using a
-                                combination of Django and Postgres SQL.
+                                combination of Django and Postgres SQL. Finally,
+                                the project is containerized and runs via
+                                Docker.
                             </p>
                             <p>
                                 I was responsible for building the login and
@@ -91,16 +93,16 @@ export default function Work() {
                         <br />
                         <div className="Body-Text-Bold">
                             <p>
-                                Web game utilizing questions from real episodes
-                                of Jeopardy!™
+                                Treampardy is a web game utilizing questions
+                                from real episodes of Jeopardy!™
                             </p>
                         </div>
                         <div className="Body-Text">
                             <p>
-                                Treampardy is a really fun game co-developed by
-                                Cindy Chiang, Lindsey Carlson, and myself. It is
-                                built using React, and pulling game data from
-                                the open-source API{" "}
+                                Treampardy was co-developed by Cindy Chiang,
+                                Lindsey Carlson, and myself. It is built using
+                                React, and pulling game data from the
+                                open-source API{" "}
                                 <a href="https://jservice.io" target="blank">
                                     jservice.io
                                 </a>
@@ -151,16 +153,29 @@ export default function Work() {
                             <h3>AutoBahn</h3>
                         </div>
                         <br />
+                        <div className="Body-Text-Bold">
+                            <p>
+                                AutoBahn is a car dealership app managing sales,
+                                inventory, and service appointments.
+                            </p>
+                        </div>
                         <div className="Body-Text">
                             <p>
-                                Sed luctus lacus eu semper feugiat. Vestibulum
-                                aliquam fermentum elit eu rhoncus. Cras cursus,
-                                lorem ut molestie ultricies, mauris nisl
-                                ullamcorper dolor, vel ullamcorper nulla nisl at
-                                ligula. Sed placerat sem arcu. Cras quis diam
-                                tortor. Mauris sed auctor nisi. Maecenas
-                                imperdiet facilisis ipsum, id laoreet diam
-                                placerat nec.
+                                AutoBahn was a collaborative project between
+                                myself and Zoybh Hussein. It is built using a
+                                React front-end, a Django-REST API back-end, and
+                                a Postgres SQL database. The project also uses a
+                                poller to propagate data from the database.
+                                Finally, the project is containerized, and runs
+                                via Docker.
+                            </p>
+                            <p>
+                                I was responsible for building the service and
+                                inventory microservices. I also built much of
+                                the visual interface, such as navbar, footer,
+                                buttons, tables, etc., and utilized Bootstrap
+                                components as well as graphics I custom designed
+                                myself.
                             </p>
                             <br />
                             <a
@@ -185,16 +200,21 @@ export default function Work() {
                             <h3>Portfolio Site</h3>
                         </div>
                         <br />
+                        <div className="Body-Text-Bold">
+                            <p>
+                                My portfolio website was built entirely from
+                                scratch utilizing React, CSS, and MaterialUI
+                                components.
+                            </p>
+                        </div>
                         <div className="Body-Text">
                             <p>
-                                Sed luctus lacus eu semper feugiat. Vestibulum
-                                aliquam fermentum elit eu rhoncus. Cras cursus,
-                                lorem ut molestie ultricies, mauris nisl
-                                ullamcorper dolor, vel ullamcorper nulla nisl at
-                                ligula. Sed placerat sem arcu. Cras quis diam
-                                tortor. Mauris sed auctor nisi. Maecenas
-                                imperdiet facilisis ipsum, id laoreet diam
-                                placerat nec.
+                                This portfolio website is my latest project and
+                                is currently a work in progress. Next steps
+                                include making the site reactive in order to
+                                work better on mobile, and adding projects. I
+                                welcome all feedback to the site and would love
+                                to hear from you!
                             </p>
                             <br />
                             <a
