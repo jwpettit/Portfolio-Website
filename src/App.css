@@ -409,3 +409,15 @@ a:hover {
     font-size: 14px;
     color: #FFFFFF;
 }
+
+
+
+
+/* About Component Classes */
+.About-Flags-Container {
+    display: flex;
+}
+
+.About-Flags-Container img {
+    margin-right: 10px;
+}
