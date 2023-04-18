@@ -97,7 +97,12 @@ export default function Work() {
                 </div>
                 <div className="Horizontal-Section-Divider" />
                 <div className="Page-Content-Container-2">
-                    <div className="Page-Content-Column-1"></div>
+                    <div className="Page-Content-Column-1">
+                        <img
+                            alt="AutoBahn Service List"
+                            src={`${process.env.PUBLIC_URL}/project_screenshots/Screenshot_AutoBahn_Service-List.png`}
+                        />
+                    </div>
                     <div className="Page-Content-Column-1">
                         <div className="H3-Header">
                             <h3>AutoBahn</h3>
