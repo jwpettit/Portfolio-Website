@@ -15,7 +15,12 @@ export default function Work() {
                 </div>
                 <div className="Horizontal-Section-Divider" />
                 <div className="Page-Content-Container-2">
-                    <div className="Page-Content-Column-1"></div>
+                    <div className="Page-Content-Column-1">
+                        <img
+                            alt="BrewHop Homepage"
+                            src={`${process.env.PUBLIC_URL}/project_screenshots/Screenshot_BrewHop_Homepage.png`}
+                        />
+                    </div>
                     <div className="Page-Content-Column-1">
                         <div className="H3-Header">
                             <h3>BrewHop</h3>
@@ -51,7 +56,12 @@ export default function Work() {
                 </div>
                 <div className="Horizontal-Section-Divider" />
                 <div className="Page-Content-Container-2">
-                    <div className="Page-Content-Column-1"></div>
+                    <div className="Page-Content-Column-1">
+                        <img
+                            alt="Treampardy Gameboard"
+                            src={`${process.env.PUBLIC_URL}/project_screenshots/Screenshot_Treampaprdy_Game.png`}
+                        />
+                    </div>
                     <div className="Page-Content-Column-1">
                         <div className="H3-Header">
                             <h3>Treampardy</h3>
@@ -116,7 +126,12 @@ export default function Work() {
                 </div>
                 <div className="Horizontal-Section-Divider" />
                 <div className="Page-Content-Container-2">
-                    <div className="Page-Content-Column-1"></div>
+                    <div className="Page-Content-Column-1">
+                        <img
+                            alt="Portfolio Site Homepage"
+                            src={`${process.env.PUBLIC_URL}/project_screenshots/Screenshot_Portfolio-Site_Homepage.png`}
+                        />
+                    </div>
                     <div className="Page-Content-Column-1">
                         <div className="H3-Header">
                             <h3>Portfolio Site</h3>
