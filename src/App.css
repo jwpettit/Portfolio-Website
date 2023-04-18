@@ -215,6 +215,17 @@ a:hover {
     justify-content: right;
 }
 
+.Footer-Text,
+.Footer-Text:hover,
+.Footer-Text:focus,
+.Footer-Text:active,
+.Footer-Text-Right,
+.Footer-Text-Right:hover,
+.Footer-Text-Right:focus,
+.Footer-Text-Right:active {
+    color: #FFFFFF !important;
+}
+
 .Footer-Text-Box {
     display: flex;
     justify-content: end;
