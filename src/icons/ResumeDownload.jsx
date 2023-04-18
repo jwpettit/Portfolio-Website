@@ -1,5 +1,5 @@
 import StyledIconButton from "./CustomIconButton";
-import DownloadIcon from '@mui/icons-material/Download';
+import DownloadIcon from "@mui/icons-material/Download";
 
 export default function DownloadResumeIcon() {
     return (
