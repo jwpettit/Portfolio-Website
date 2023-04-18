@@ -10,6 +10,11 @@ import Work from "./pages/Work";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Invalid from "./pages/Invalid";
+import ReactGA from "react-ga";
+
+const GAKey = process.env.REACT_APP_GA_TRACKINGID;
+
+ReactGA.initialize(GAKey)
 
 export default function App() {
     return (
