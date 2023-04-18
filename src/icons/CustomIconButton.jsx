@@ -5,6 +5,6 @@ const StyledIconButton = styled(IconButton)({
     "&:hover": {
         backgroundColor: "#3E404C",
     },
-})
+});
 
 export default StyledIconButton;

@@ -6,7 +6,7 @@ export default function About() {
         <div className="Page-Background-Container">
             <div className="Page-Content-Container">
                 <AboutMe />
-                <div className="Horizontal-Section-Divider"/>
+                <div className="Horizontal-Section-Divider" />
                 <Resume />
             </div>
         </div>

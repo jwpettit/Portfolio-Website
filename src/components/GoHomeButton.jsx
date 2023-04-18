@@ -20,4 +20,4 @@ export default function GoHomeButton() {
             Go Home
         </YellowButton>
     );
-};
+}

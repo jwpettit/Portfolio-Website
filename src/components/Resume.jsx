@@ -81,7 +81,10 @@ export default function Resume() {
                         </div>
                     </div>
                     <div className="Resume-Body-Text">
-                        <p>Web game utilizing questions from real episodes of Jeopardy</p>
+                        <p>
+                            Web game utilizing questions from real episodes of
+                            Jeopardy
+                        </p>
                         <ul className="Resume-List-Margin">
                             <li>
                                 Built integration with third-party jservice.io
@@ -120,7 +123,10 @@ export default function Resume() {
                         </div>
                     </div>
                     <div className="Resume-Body-Text">
-                        <p>Car dealership app managing sales, inventory, and service appointments</p>
+                        <p>
+                            Car dealership app managing sales, inventory, and
+                            service appointments
+                        </p>
                         <ul className="Resume-List-Margin">
                             <li>
                                 Built service and inventory microservices,

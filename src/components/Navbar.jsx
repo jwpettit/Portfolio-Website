@@ -5,10 +5,7 @@ import Container from "react-bootstrap/Container";
 
 export default function Navigation() {
     return (
-        <Navbar
-            sticky="top"
-            className="Navbar-Visual"
-        >
+        <Navbar sticky="top" className="Navbar-Visual">
             <Navbar.Collapse>
                 <Container>
                     <Navbar.Brand className="Navbar-Brand" as={NavLink} to="/">
@@ -31,4 +28,4 @@ export default function Navigation() {
             </Navbar.Collapse>
         </Navbar>
     );
-};
+}

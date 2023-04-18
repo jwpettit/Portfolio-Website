@@ -11,8 +11,8 @@ export default function Landing() {
             <div className="Vertical-Line-2" />
             <div>
                 <h1 className="Homepage-About-Text">I'm</h1>
-                <HomepageTyping/>
+                <HomepageTyping />
             </div>
         </div>
     );
-};
+}
