@@ -1,6 +1,3 @@
-import AboutMe from "../components/AboutMe";
-import Resume from "../components/Resume";
-
 export default function Work() {
     return (
         <div className="Page-Background-Container">
@@ -36,6 +33,20 @@ export default function Work() {
                                 imperdiet facilisis ipsum, id laoreet diam
                                 placerat nec.
                             </p>
+                            <br />
+                            <a
+                                href="https://gitlab.com/brewhoppers/brew-hop"
+                                target="blank"
+                            >
+                                GitLab Repository
+                            </a>
+                            <br/>
+                            <a
+                                href="https://gitlab.com/brewhoppers/brew-hop"
+                                target="blank"
+                            >
+                                Deployed site
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -58,6 +69,20 @@ export default function Work() {
                                 imperdiet facilisis ipsum, id laoreet diam
                                 placerat nec.
                             </p>
+                            <br />
+                            <a
+                                href="https://gitlab.com/brewhoppers/brew-hop"
+                                target="blank"
+                            >
+                                GitLab Repository
+                            </a>
+                            <br/>
+                            <a
+                                href="https://gitlab.com/brewhoppers/brew-hop"
+                                target="blank"
+                            >
+                                Deployed site
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -80,6 +105,13 @@ export default function Work() {
                                 imperdiet facilisis ipsum, id laoreet diam
                                 placerat nec.
                             </p>
+                            <br />
+                            <a
+                                href="https://gitlab.com/brewhoppers/brew-hop"
+                                target="blank"
+                            >
+                                GitLab Repository
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -102,6 +134,13 @@ export default function Work() {
                                 imperdiet facilisis ipsum, id laoreet diam
                                 placerat nec.
                             </p>
+                            <br />
+                            <a
+                                href="https://gitlab.com/brewhoppers/brew-hop"
+                                target="blank"
+                            >
+                                GitHub Repository
+                            </a>
                         </div>
                     </div>
                 </div>
