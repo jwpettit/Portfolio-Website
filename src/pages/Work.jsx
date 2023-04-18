@@ -42,7 +42,7 @@ export default function Work() {
                             </a>
                             <br/>
                             <a
-                                href="https://gitlab.com/brewhoppers/brew-hop"
+                                href="https://brewhoppers.gitlab.io/brew-hop/"
                                 target="blank"
                             >
                                 Deployed site
@@ -71,14 +71,14 @@ export default function Work() {
                             </p>
                             <br />
                             <a
-                                href="https://gitlab.com/brewhoppers/brew-hop"
+                                href="https://gitlab.com/treamforce/treampardy-take-2"
                                 target="blank"
                             >
                                 GitLab Repository
                             </a>
                             <br/>
                             <a
-                                href="https://gitlab.com/brewhoppers/brew-hop"
+                                href="https://treamforce.gitlab.io/treampardy-take-2/"
                                 target="blank"
                             >
                                 Deployed site
@@ -107,7 +107,7 @@ export default function Work() {
                             </p>
                             <br />
                             <a
-                                href="https://gitlab.com/brewhoppers/brew-hop"
+                                href="https://gitlab.com/jwpettit/project-beta"
                                 target="blank"
                             >
                                 GitLab Repository
@@ -136,7 +136,7 @@ export default function Work() {
                             </p>
                             <br />
                             <a
-                                href="https://gitlab.com/brewhoppers/brew-hop"
+                                href="https://github.com/jwpettit/Portfolio-Website"
                                 target="blank"
                             >
                                 GitHub Repository
