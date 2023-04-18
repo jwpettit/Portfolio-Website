@@ -25,24 +25,6 @@ export default function AboutMe() {
                     </div>
                     <br />
                     <div className="Body-Text">
-                        {/* <p>
-                            Through my experience working as an industrial
-                            designer, I’ve come to realize that I am naturally a
-                            detail-oriented problem-solver who is passionate
-                            about all things tech. From working on
-                            human-centered design projects I tend to be very
-                            user-focused in my solutions and am always learning
-                            new tools and skills. In project work I am very
-                            leadership-oriented and have extensive experience
-                            managing projects with diverse stakeholders both
-                            domestically and abroad.
-                        </p>
-                        <p>
-                            During my time at Hack Reactor, I developed many new
-                            technical skills. I'm always learning and lately
-                            have been focused on getting into mobile
-                            development.
-                        </p> */}
                         <p>
                             I am a detail-oriented problem-solver with a passion
                             for technology and a focus on user-centered design.
