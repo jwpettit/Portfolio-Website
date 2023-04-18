@@ -26,16 +26,38 @@ export default function Work() {
                             <h3>BrewHop</h3>
                         </div>
                         <br />
+                        <div className="Body-Text-Bold">
+                            <p>
+                                BrewHop is a web application to help 21+
+                                customers find breweries in areas around the
+                                United States.
+                            </p>
+                        </div>
                         <div className="Body-Text">
                             <p>
-                                Sed luctus lacus eu semper feugiat. Vestibulum
-                                aliquam fermentum elit eu rhoncus. Cras cursus,
-                                lorem ut molestie ultricies, mauris nisl
-                                ullamcorper dolor, vel ullamcorper nulla nisl at
-                                ligula. Sed placerat sem arcu. Cras quis diam
-                                tortor. Mauris sed auctor nisi. Maecenas
-                                imperdiet facilisis ipsum, id laoreet diam
-                                placerat nec.
+                                BrewHop is my Hack Reactor capstone project. I
+                                worked on a team of 4 including myself, Holly
+                                Quach, Sean Sainz, and Yanning Wang. The project
+                                utilizes Yelp's API to search for breweries and
+                                present them to the user. The site contains a
+                                React front-end, as well as multiple
+                                microservice API's which are built using a
+                                combination of Django and Postgres SQL.
+                            </p>
+                            <p>
+                                I was responsible for building the login and
+                                logout forms, signup form, and implementing
+                                refresh-persisting React Hooks which keep the
+                                user logged-in through a refresh. I also built
+                                the "favorites" microservice which stores a
+                                user's favorited breweries in the backend. I
+                                took the lead in styling the entire page,
+                                largely utilizing Bootstrap components, and
+                                designed most of the graphics. Currently, I'm
+                                working on developing a wake function which
+                                wakes the backend from sleep and indicates
+                                progress to the user through visual cues such as
+                                a loading bar.
                             </p>
                             <br />
                             <a
@@ -67,16 +89,37 @@ export default function Work() {
                             <h3>Treampardy</h3>
                         </div>
                         <br />
+                        <div className="Body-Text-Bold">
+                            <p>
+                                Web game utilizing questions from real episodes
+                                of Jeopardy!™
+                            </p>
+                        </div>
                         <div className="Body-Text">
                             <p>
-                                Sed luctus lacus eu semper feugiat. Vestibulum
-                                aliquam fermentum elit eu rhoncus. Cras cursus,
-                                lorem ut molestie ultricies, mauris nisl
-                                ullamcorper dolor, vel ullamcorper nulla nisl at
-                                ligula. Sed placerat sem arcu. Cras quis diam
-                                tortor. Mauris sed auctor nisi. Maecenas
-                                imperdiet facilisis ipsum, id laoreet diam
-                                placerat nec.
+                                Treampardy is a really fun game co-developed by
+                                Cindy Chiang, Lindsey Carlson, and myself. It is
+                                built using React, and pulling game data from
+                                the open-source API{" "}
+                                <a href="https://jservice.io" target="blank">
+                                    jservice.io
+                                </a>
+                                .
+                            </p>
+                            <p>
+                                The three of us worked collaboratively,
+                                group-programming to build most of the game's
+                                core functionality. I was personally responsible
+                                for the modals which show the game's clues and
+                                questions. In the time since, I have worked to
+                                maintain it, refactoring some of the
+                                data-fetching logic. I've also built out some ui
+                                functionality, including a loading bar which
+                                appears while game data is being fetched from
+                                the API. The game remains a work in progress,
+                                and on the to-do list are enhancements such as
+                                multi-player functionality, and a game-over
+                                page.
                             </p>
                             <br />
                             <a
