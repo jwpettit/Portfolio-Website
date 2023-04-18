@@ -441,7 +441,7 @@ export default function Resume() {
                         </div>
                     </div>
                     <div className="Resume-Body-Text">
-                        <p>Python 3, JavaScript ES6+, SQL, HTML5, CSS</p>
+                        <p>Python 3, JavaScript ES6+, SQL, Swift, HTML5, CSS</p>
                     </div>
 
                     <br />
@@ -456,7 +456,7 @@ export default function Resume() {
                     <div className="Resume-Body-Text">
                         <p>
                             DOM Manipulation, Websockets, React, React Hooks,
-                            Redux Toolkit
+                            SwiftUI
                         </p>
                     </div>
 

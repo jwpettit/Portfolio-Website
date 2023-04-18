@@ -4,8 +4,8 @@ import DownloadIcon from '@mui/icons-material/Download';
 export default function DownloadResumeIcon() {
     return (
         <StyledIconButton
-            href="https://linkedin.com/in/pettitjw"
-            target="blank"
+            href={`${process.env.PUBLIC_URL}/flags/Flag_USA.svg`}
+            download=""
         >
             <DownloadIcon className="Resume-Download-Icon" />
         </StyledIconButton>
