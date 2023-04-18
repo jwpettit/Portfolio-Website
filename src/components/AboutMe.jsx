@@ -20,39 +20,43 @@ export default function AboutMe() {
                     <br />
                     <div className="H3-Header">
                         <h3>
-                            Vivamus in porttitor ante. Maecenas ipsum dolor,
-                            dapibus vestibulum ante eget
+                            I'm passionate about crafting great products and
+                            experiences.
                         </h3>
                     </div>
                     <br />
                     <div className="Body-Text">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Donec eget dui nec velit mattis dictum.
-                            Quisque accumsan malesuada neque, non ornare ligula
-                            rutrum vitae. Fusce nec tristique velit. Ut euismod
-                            diam orci, ut bibendum dui gravida.
+                            Through my experience working as an industrial
+                            designer, I’ve come to realize that I am naturally a
+                            detail-oriented problem-solver who is passionate
+                            about all things tech. From working on
+                            human-centered design projects I tend to be very
+                            user-focused in my solutions and am always learning
+                            new tools and skills. In project work I am very
+                            leadership-oriented and have extensive experience
+                            managing projects with diverse stakeholders both
+                            domestically and abroad.
                         </p>
                         <p>
-                            Donec eget dui nec velit mattis dictum. Quisque
-                            accumsan malesuada neque, non ornare ligula rutrum
-                            vitae. Fusce nec tristique velit. Ut euismod diam
-                            orci, ut bibendum dui gravida id. Lorem ipsum dolor
-                            sit amet, consectetur adipiscing elit.
+                            During my time at Hack Reactor, I developed many new
+                            technical skills. I'm always learning and lately
+                            have been focused on getting into mobile
+                            development.
                         </p>
                     </div>
                     {/* <div className="About-Flags-Container"> */}
-                        {/* <img
+                    {/* <img
                             alt="USA Flag"
                             src={`${process.env.PUBLIC_URL}/flags/Flag_USA.svg`}
                             width="50"
                         /> */}
-                        {/* <img
+                    {/* <img
                             alt="Luxembourg Flag"
                             src={`${process.env.PUBLIC_URL}/flags/Flag_Luxembourg.svg`}
                             width="50"
                         /> */}
-                        {/* <img
+                    {/* <img
                             alt="LGBTQ Flag"
                             src={`${process.env.PUBLIC_URL}/flags/Flag_LGBT.svg`}
                             width="50"
