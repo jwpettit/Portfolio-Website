@@ -41,23 +41,23 @@ export default function AboutMe() {
                             sit amet, consectetur adipiscing elit.
                         </p>
                     </div>
-                    <div className="About-Flags-Container">
-                        <img
+                    {/* <div className="About-Flags-Container"> */}
+                        {/* <img
                             alt="USA Flag"
                             src={`${process.env.PUBLIC_URL}/flags/Flag_USA.svg`}
                             width="50"
-                        />
-                        <img
+                        /> */}
+                        {/* <img
                             alt="Luxembourg Flag"
                             src={`${process.env.PUBLIC_URL}/flags/Flag_Luxembourg.svg`}
                             width="50"
-                        />
-                        <img
+                        /> */}
+                        {/* <img
                             alt="LGBTQ Flag"
                             src={`${process.env.PUBLIC_URL}/flags/Flag_LGBT.svg`}
                             width="50"
-                        />
-                    </div>
+                        /> */}
+                    {/* </div> */}
                 </div>
             </div>
         </div>
