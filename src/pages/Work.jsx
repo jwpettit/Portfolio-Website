@@ -8,10 +8,9 @@ export default function Work() {
                 <br />
                 <div className="H3-Header">
                     <h3>
-                        utrum nunc vel porttitor. Nulla sed velit id augue
-                        pellentesque vehicula et sed lorem. Nullam auctor ornare
-                        massa id egestas. Curabitur at risus nec dolor laoreet
-                        ultrices.
+                        Below are some projects that I have worked on recently.
+                        If you have any questions while reviewing them, please
+                        don't hesitate to reach out!
                     </h3>
                 </div>
                 <div className="Horizontal-Section-Divider" />
@@ -40,12 +39,12 @@ export default function Work() {
                             >
                                 GitLab Repository
                             </a>
-                            <br/>
+                            <br />
                             <a
                                 href="https://brewhoppers.gitlab.io/brew-hop/"
                                 target="blank"
                             >
-                                Deployed site
+                                Deployed Site
                             </a>
                         </div>
                     </div>
@@ -76,12 +75,12 @@ export default function Work() {
                             >
                                 GitLab Repository
                             </a>
-                            <br/>
+                            <br />
                             <a
                                 href="https://treamforce.gitlab.io/treampardy-take-2/"
                                 target="blank"
                             >
-                                Deployed site
+                                Deployed Site
                             </a>
                         </div>
                     </div>
