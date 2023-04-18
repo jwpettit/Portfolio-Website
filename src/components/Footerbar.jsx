@@ -1,6 +1,7 @@
 import Navbar from "react-bootstrap/Navbar";
 import { Container } from "react-bootstrap";
 import Clock from "./Clock";
+import CurrentYear from "./CurrentYear";
 
 export default function Footer() {
     return (
@@ -37,6 +38,11 @@ export default function Footer() {
                         />
                     </Navbar.Brand> */}
                 {/* </Container> */}
+                <Container className="Footer-Copyright-Box">
+                    <Navbar.Brand className="Footer-Text">
+                    ©<CurrentYear /> Jeff Pettit
+                    </Navbar.Brand>
+                </Container>
             </Navbar.Collapse>
         </Navbar>
     );
