@@ -2,7 +2,7 @@ import "./App.css";
 import "./assets/fonts/DINR____.TTF";
 import "./assets/fonts/DINB____.TTF";
 import "./assets/fonts/DIN Medium.ttf";
-import React from "react";
+import React, { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./Layout";
 import Landing from "./pages/Landing";
@@ -14,9 +14,13 @@ import ReactGA from "react-ga";
 
 const GAKey = process.env.REACT_APP_GA_TRACKINGID;
 
-ReactGA.initialize(GAKey)
+ReactGA.initialize(GAKey);
 
 export default function App() {
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname);
+    }, []);
+
     return (
         <div className="App">
             <Routes>
