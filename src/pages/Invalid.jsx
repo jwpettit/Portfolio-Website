@@ -1,6 +1,11 @@
 import GoHomeButton from "../components/GoHomeButton";
+import ReactGA from "react-ga";
 
 export default function Invalid() {
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname);
+    }, []);
+
     return (
         <div className="Invalid-Container">
             <div className="H1-Header">

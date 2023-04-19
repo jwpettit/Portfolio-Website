@@ -1,6 +1,11 @@
 import HomepageTyping from "../components/TypingAnimation";
+import ReactGA from "react-ga";
 
 export default function Landing() {
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname);
+    }, []);
+
     return (
         <div className="Homepage-Container">
             <div>

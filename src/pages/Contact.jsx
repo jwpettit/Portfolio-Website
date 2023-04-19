@@ -3,8 +3,13 @@ import ContactLinkedInIcon from "../icons/ContactLinkedIn";
 import ContactGitHubIcon from "../icons/ContactGitHub";
 import ContactGitLabIcon from "../icons/ContactGitLab";
 import ContactPhoneIcon from "../icons/ContactPhone";
+import ReactGA from "react-ga";
 
 export default function Contact() {
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname);
+    }, []);
+
     return (
         <div className="Page-Background-Container">
             <div className="Page-Content-Container-1">

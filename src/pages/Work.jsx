@@ -1,4 +1,10 @@
+import ReactGA from "react-ga";
+
 export default function Work() {
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname);
+    }, []);
+
     return (
         <div className="Page-Background-Container">
             <div className="Page-Content-Container-1">

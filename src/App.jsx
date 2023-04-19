@@ -17,10 +17,6 @@ const GAKey = process.env.REACT_APP_GA_TRACKINGID;
 ReactGA.initialize(GAKey);
 
 export default function App() {
-    useEffect(() => {
-        ReactGA.pageview(window.location.pathname);
-    }, []);
-
     return (
         <div className="App">
             <Routes>
