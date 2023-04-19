@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import HomepageTyping from "../components/TypingAnimation";
 import ReactGA from "react-ga";
 

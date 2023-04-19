@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import GoHomeButton from "../components/GoHomeButton";
 import ReactGA from "react-ga";
 

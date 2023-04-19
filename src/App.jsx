@@ -2,7 +2,7 @@ import "./App.css";
 import "./assets/fonts/DINR____.TTF";
 import "./assets/fonts/DINB____.TTF";
 import "./assets/fonts/DIN Medium.ttf";
-import React, { useEffect } from "react";
+import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./Layout";
 import Landing from "./pages/Landing";

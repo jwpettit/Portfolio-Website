@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import ReactGA from "react-ga";
 
 export default function Work() {

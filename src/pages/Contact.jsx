@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import ContactForm from "../components/ContactForm";
 import ContactLinkedInIcon from "../icons/ContactLinkedIn";
 import ContactGitHubIcon from "../icons/ContactGitHub";

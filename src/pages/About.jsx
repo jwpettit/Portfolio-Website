@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import AboutMe from "../components/AboutMe";
 import Resume from "../components/Resume";
 import ReactGA from "react-ga";
