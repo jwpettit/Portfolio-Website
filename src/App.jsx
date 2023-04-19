@@ -3,7 +3,7 @@ import "./assets/fonts/DINR____.TTF";
 import "./assets/fonts/DINB____.TTF";
 import "./assets/fonts/DIN Medium.ttf";
 import React from "react";
-import { Route, Routes, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Layout from "./Layout";
 import Landing from "./pages/Landing";
 import Work from "./pages/Work";
@@ -20,15 +20,13 @@ export default function App() {
     return (
         <div className="App">
             <Routes>
-                <Switch>
-                    <Route path="/" element={<Layout />}>
-                        <Route index element={<Landing />} />
-                        <Route path="work/" element={<Work />} />
-                        <Route path="about/" element={<About />} />
-                        <Route path="contact/" element={<Contact />} />
-                        <Route path="*" element={<Invalid />} />
-                    </Route>
-                </Switch>
+                <Route path="/" element={<Layout />}>
+                    <Route index element={<Landing />} />
+                    <Route path="work/" element={<Work />} />
+                    <Route path="about/" element={<About />} />
+                    <Route path="contact/" element={<Contact />} />
+                    <Route path="*" element={<Invalid />} />
+                </Route>
             </Routes>
         </div>
     );
