@@ -158,7 +158,7 @@ a:hover {
 /* Component Classes */
 .Navlinks-Box {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     margin-right: 20px;
 }
 
@@ -228,13 +228,13 @@ a:hover {
 
 .Footer-Text-Box {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     margin-left: 20px;
 }
 
 .Footer-Copyright-Box {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 
