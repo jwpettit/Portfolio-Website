@@ -149,6 +149,35 @@ export default function Resume() {
                     <div className="Resume-Header-Container">
                         <div className="Resume-Header-Title-Container">
                             <div className="Resume-Body-Text-Bold">
+                                <p>Freelance</p>
+                            </div>
+                            <div className="Resume-Text-Divider" />
+                            <div className="Resume-Body-Text">
+                                <p>Software Engineer</p>
+                            </div>
+                            <div className="Resume-Text-Divider" />
+                            <div className="Resume-Body-Text">
+                                <p>Los Angeles, CA</p>
+                            </div>
+                        </div>
+                        <div className="Resume-Body-Text-Right">
+                            <p>2023 – Present</p>
+                        </div>
+                    </div>
+                    <div className="Resume-Body-Text">
+                        <ul className="Resume-List-Margin">
+                            <li>
+                                Build and maintain websites for clients using
+                                varied tech stacks
+                            </li>
+                        </ul>
+                    </div>
+
+                    <br />
+
+                    <div className="Resume-Header-Container">
+                        <div className="Resume-Header-Title-Container">
+                            <div className="Resume-Body-Text-Bold">
                                 <p>Code for San Francisco</p>
                             </div>
                             <div className="Resume-Text-Divider" />
@@ -168,8 +197,10 @@ export default function Resume() {
                     <div className="Resume-Body-Text">
                         <ul className="Resume-List-Margin">
                             <li>
-                                Currently working on project iWalk to build
-                                React charts for the app's admin panel
+                                Currently working to build React charts for the
+                                app’s admin panel via backend API calls
+                                utilizing PostgreSQL and Django, as well as
+                                frontend in React
                             </li>
                         </ul>
                     </div>
