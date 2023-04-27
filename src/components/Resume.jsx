@@ -493,7 +493,7 @@ export default function Resume() {
                     <div className="Resume-Body-Text">
                         <p>
                             DOM Manipulation, Websockets, React, React Hooks,
-                            SwiftUI
+                            SwiftUI, React Native
                         </p>
                     </div>
 
